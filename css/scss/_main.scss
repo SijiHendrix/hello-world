@@ -11,9 +11,9 @@ ul{
 
 li{
     display:inline;
-    border-right: 1px solid #bbb;
+    border-right: 1px solid $grey;
 }
 
 a{
-    color:blue;
+    color: $blue;
 }
