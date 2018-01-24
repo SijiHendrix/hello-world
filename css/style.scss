@@ -1,2 +1,10 @@
+// Import external dependencies
+@import 'scss/deps/bootstrap';
+
+// Import internal dependencies
 @import 'scss/variables';
+@import 'scss/classes';
+
+// Import sections
+@import 'scss/nav';
 @import 'scss/main';
