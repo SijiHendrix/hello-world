@@ -1,0 +1,40 @@
+.cms-nav{
+	display: block;
+	width: 100%;
+	border-bottom: 1px solid #e6e9ed;
+	padding: 0px;
+	background-color: $white;
+	.container{
+		@extend .rm-pd;
+	}
+	ul{
+		position: relative;
+		display: inline-block;
+		padding: 0px;
+		margin-bottom: 0px;
+		li{
+			display: inline-block;
+			a{
+				position: relative;
+				display: block;
+				text-transform: uppercase;
+				font-size: 15px;
+				font-weight: 700;
+				line-height: 20px;
+				color: $blue;
+				padding: 15px 20px;
+				&.brand{
+					padding: 0px;
+					max-height: 50px;
+					margin-right: 40px;
+					img{
+						height: 20px;
+					}
+				}
+				&:hover{
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
